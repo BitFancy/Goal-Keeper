@@ -19,7 +19,7 @@ const Header = ({isClicked, setIsClicked}) => {
                         <Logo />
                     </div>
                     <div className="md:flex items-center justify-between gap-[229px] hidden  text-white text-lg font-bold">
-                        <div class="flex flex-row justify-between gap-9 ">
+                        <div class="flex flex-row justify-between items-center gap-9 ">
                             <Link to = "/">
                                 <button class="flex bg-transparent hover:bg-[#3333FF] px-[18.5px] py-[11.5px] items-center border-1 border-[#3333FF] rounded-md">Home</button>
                             </Link>
@@ -27,7 +27,7 @@ const Header = ({isClicked, setIsClicked}) => {
                                 <button class="flex bg-transparent hover:bg-[#3333FF] px-[18.5px] py-[11.5px] items-center rounded-md text-white">About Us</button>
                             </Link>
                         </div>
-                        <div class="flex">
+                        <div class="flex items-center">
                             <Link to = "/contact">
                                 <button class="flex bg-transparent hover:bg-[#3333FF] px-[18.5px] py-[11.5px] items-center border-1 border-blue-500 rounded-md text-white">Contact Us</button>
                             </Link>
