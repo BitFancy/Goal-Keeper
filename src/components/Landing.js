@@ -2,10 +2,10 @@ import React from "react";
 
 const prices = [
     { price: "600K+", description: "Total Followers" },
-    { price: "200K+", description: "20M+" },
-    { price: "20M+", description: "views a week" },
-    { price: "2B+", description: "views a week" },
-    { price: "13.7%", description: "views a week" },
+    { price: "200K+", description: "Average Story Views" },
+    { price: "20M+", description: "Views a week" },
+    { price: "2B+", description: "Impressions in 2024" },
+    { price: "13.7%", description: "Engagement Rate" },
 ];
 const Landing = () => {
     return (
@@ -60,7 +60,7 @@ const Landing = () => {
                 </div>
             </div>
             <div className="flex flex-col">
-                <div className="flex h-[190px] bg-[#000000]"></div>
+                <div className="flex h-[160px] bg-[#000000]"></div>
             </div>
         </>
     );
