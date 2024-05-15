@@ -60,8 +60,7 @@ const Landing = () => {
                 </div>
             </div>
             <div className="flex flex-col">
-                <div className="flex h-[75px] bg-[#222222]"></div>
-                <div className="flex h-[115px] bg-[#000000]"></div>
+                <div className="flex h-[190px] bg-[#000000]"></div>
             </div>
         </>
     );
