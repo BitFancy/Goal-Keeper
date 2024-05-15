@@ -18,13 +18,13 @@ const Landing = () => {
         <div className="flex w-full flex-col relative pt-[80px] md:bg-[url('./images/Heading.svg')] bg-no-repeat h-screen bg-cover bg-center bg-black">
             <div className="flex flex-col md:pt-[239px] pt-[80px] md:pr-[127px] md:pb-[127px] md:pl-[126px] px-[16px]">
                 <div className="flex flex-col items-center mb-16">
-                    <div class="md:text-[40px] text-white text-4xl font-normal">TEH HOME OF</div>
+                    <div class="md:text-[40px] text-white text-4xl font-normal">THE HOME OF</div>
                     <div class="flex flex-col items-center px-[]">
                         <div class="">
                             <div class="md:text-7xl text-white text-4xl font-black italic">GOAL<span class="text-[#3333FF] font-extrabold">KEEPERS</span></div>
                         </div>
                     </div>
-                    <div class="flex items-center md:text-[25px] text-[13px] text-white md:font-light font-bold">The Largets GoalKeeper Community on Planet.</div>
+                    <div class="flex items-center md:text-[25px] text-[13px] text-white md:font-light font-bold">The Largest GoalKeeper Community on Planet.</div>
                 </div>
                 <div className="flex flex-row justify-center gap-[5px]">
                     <div>
